@@ -122,8 +122,8 @@ Internet URLs.
 The variables `SSH_USERNAME` and `SSH_PASSWORD` can be used to change the
  default name & password from the default `vagrant`/`vagrant` respectively.
 
-The variable 'SSH_ROOT' can be set to true to grant root ssh access (so you can set
-vagrant config.ssh.username to root). Default is false.
+The variable `SSH_ROOT` can be set to true to grant root ssh access (so you can set
+vagrant `config.ssh.username` to root). Default is false.
 
 The variable `INSTALL_VAGRANT_KEY` can be set to turn off installation of the
 default insecure vagrant key when the image is being used outside of vagrant.
